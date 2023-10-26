@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;    
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: grey;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 80px;
+}
+
+.logo_nome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    padding-right: 150px;
+    gap: 20px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.texto_sobre {
+    text-align: justify;
+    padding: 20px;
+    line-height: 3em;
+}
+
+#titulo_sobre {
+    font-size: 40px;
+}
+
+#subtitulo_sobre {
+    font-size: 30px;
+}
+
+#conteudo_sobre {
+    font-size: 18px;
+}
+
+#imagem_sobre {
+    border-radius: 10px;
+}
